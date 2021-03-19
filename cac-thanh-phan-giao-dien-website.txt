@@ -1,0 +1,9 @@
+Các thành phần thường gặp trên giao diện website:
+1.Header
+2.Navigation
+3.Breadcrumb(vị trí trang hiện tại đang truy cập webste
+4.Slidebar
+5.Slider
+6.Banner
+7.Content
+8.Footer

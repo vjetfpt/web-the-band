@@ -1,0 +1,7 @@
+1.Header: navigation,search
+2.Slider
+3.3 mục content: about,tour,contact,image,footer
+4.banner
+5.footer
+
+-->ok

@@ -1,0 +1,1 @@
+padding-top left right..: số %, % chiều ngang của chính nó
