@@ -176,7 +176,7 @@ html{
 .list-dates-tour {
     background-color: #fff;
     list-style-type: none;
-    width: 766px;
+    width: 782px;
     font-size: 15px;
 }
 .list-dates-tour .item-date-tour{
@@ -197,47 +197,47 @@ html{
     border-radius: 50%;
 }
 #content .list-locations-tour{
-    padding:32px 0;
+    margin:32px -8px 0;
+    padding-bottom: 96px;
 }
 .list-locations-tour .item-location-tour{
-    width: 246px;
-    width: 30%;
+    width: 33.33333%;
     float:left;
+    background-clip: content-box;
+    padding:0 8px;
+    font-size: 15px;
+}
+.list-locations-tour .location-body{
     background-color: #fff;
-    margin:0 8px;
+    padding:15px 0;
+    padding-left: 16px;
 }
 .item-location-tour .picture-location-tour{
-    width: 235px;
+    width: 100%;
+    display: block;
 }
 .item-location-tour .picture-location-tour:hover{
     /* vertical-align: middle; */
-    background-color: #000;
     opacity: 0.6;
 }
 .item-location-tour .name-location-tour{
-    margin:15px 0;
-    margin-left: 16px;
     font-weight: bold;
-    font-size: 15px;
+    margin-bottom: 15px;
 }
 .item-location-tour .date-location-tour{
-    margin:15px 0;
-    margin-left: 16px;
     opacity: 0.6;
+    margin-bottom: 15px;
 }
 .item-location-tour .content-location-tour{
-    margin:15px 0;
-    margin-left: 16px;
     width: 214px;
+    margin-bottom: 15px;
+    line-height: 1.4;
 }
 .buy-tickers{
-    width: 108px;
-    padding:8px 16px;
+    padding:11px 16px;
     background-color: #000;
     color: #fff;
     border: none;
-    margin-left: 16px;
-    font-size: 15px;
     cursor: pointer;
     margin-bottom: 16px;
 }
