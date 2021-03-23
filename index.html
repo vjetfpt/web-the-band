@@ -66,20 +66,19 @@
                     enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
                     consequat.
                 </p>
-                <div class="info-band">
-                    <div class="member member1">
+                <div class="row info-band">
+                    <div class="col col-third text-align">
                         <p class="member-name">Name</p>
                         <img src="./assets/image/bandmember.jpg" alt="" class="member-img">
                     </div>
-                    <div class="member member2">
+                    <div class="col col-third text-align">
                         <p class="member-name">Name</p>
                         <img src="./assets/image/bandmember.jpg" alt="" class="member-img">
                     </div>
-                    <div class="member member3">
+                    <div class="col col-third text-align">
                         <p class="member-name">Name</p>
                         <img src="./assets/image/bandmember.jpg" alt="" class="member-img">
                     </div>
-                    <div class="clear"></div>
                 </div>
             </div>
             <div class="section-tour-dates">
@@ -102,11 +101,11 @@
                         </li>
                         <li class="item-date-tour">
                             November
-                            <span class="quantity-ticker text-white">3</span>
+                            <span class="quantitycker text-white">3</span>
                         </li>
                     </ul>
-                    <div class="list-locations-tour">
-                        <div class="item-location-tour">
+                    <div class="row list-locations-tour">
+                        <div class="col col-third item-location-tour">
                             <img src="./assets/image/location-tour/newyork.jpg" alt="" class="picture-location-tour"> 
                             <div class="location-body">
                                 <p class="name-location-tour">
@@ -118,10 +117,10 @@
                                 <p class="content-location-tour">
                                     Praesent tincidunt sed tellus ut rutrum sed vitae justo.
                                 </p>
-                                <input type="button" value="Buy Tickets" class="buy-tickers" />
+                                <input type="button" value="Buy Tickets" class="buyckers" />
                             </div>
                         </div>
-                        <div class="item-location-tour">
+                        <div class="col col-third item-location-tour">
                             <img src="./assets/image/location-tour/paris.jpg" alt="" class=" picture-location-tour">
                             <div class="location-body">
                                 <p class="name-location-tour">
@@ -133,10 +132,10 @@
                                 <p class="content-location-tour">
                                     Praesent tincidunt sed tellus ut rutrum sed vitae justo.
                                 </p>
-                                <input type="button" value="Buy Tickets" class="buy-tickers" />
+                                <input type="button" value="Buy Tickets" class="buyckers" />
                             </div>
                         </div>
-                        <div class="item-location-tour">
+                        <div class="col col-third item-location-tour">
                             <img src="./assets/image/location-tour/sanfran.jpg" alt="" class=" picture-location-tour">
                             <div class="location-body">
                                 <p class="name-location-tour">
@@ -148,10 +147,9 @@
                                 <p class="content-location-tour">
                                     Praesent tincidunt sed tellus ut rutrum sed vitae justo.
                                 </p>
-                                <input type="button" value="Buy Tickets" class="buy-tickers" />
+                                <input type="button" value="Buy Tickets" class="buyckers" />
                             </div>
                         </div>
-                        <div class="clear"></div>
                     </div>
                 </div>
             </div>
@@ -162,34 +160,44 @@
                 <p class="sub-text-heading">
                     Fan? Drop a note!
                 </p>
-                <div class="contact">
-                    <ul class="info-contact">
+                <div class="row contact">
+                    <ul class="col col-half info-contact">
                         <li><i class="ti-location-pin"></i> Chicago, US</li>
                         <li><i class="ti-headphone-alt"></i> Phone: +00 151515</li>
                         <li><i class="ti-email"></i> Email: mail@mail.com</li>
                     </ul>
-                    <form action="" class="form-contact">
-                        <div class="head-form">
+                    <form action="" class="col col-half form-contact">
+                        <div class="row head-form">
                             <div>
-                                <input type="text" name="" id="" placeholder="Name">
+                                <input type="text" name="" id="" placeholder="Name" required>
                             </div>
                             <div>
-                                <input type="email" name="" id="" placeholder="Email">
+                                <input type="email" name="" id="" placeholder="Email" required>
                             </div>
                         </div>
-                        <div class="clear"></div>
-                        <div class="body-form">
-                            <input type="text" name="" id="" placeholder="Message">
+                        <div class="col-full body-form">
+                            <input type="text" name="" id="" placeholder="Message" required>
                         </div>
-                        <div class="clear"></div>
-                        <button>Send</button>
+                        <button type="submit">Send</button>
                     </form>
-                    <div class="clear"></div>
                 </div>
             </div>
         </div>
+        <div id="section-map">
+            <img src="./assets/image/map.jpg" alt="">
+        </div>
         <div id="footer">
-
+            <div class="social-network">
+                <i class="ti-facebook"></i>
+                <i class="ti-instagram"></i>
+                <i class="ti-yahoo"></i>
+                <i class="ti-pinterest"></i>
+                <i class="ti-twitter"></i>
+                <i class="ti-skype"></i>
+            </div>
+            <p class="powered">
+                Powered by <a href="">w3.css</a>
+            </p>
         </div>
     </div>
 </body>
