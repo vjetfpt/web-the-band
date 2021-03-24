@@ -5,11 +5,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>The band</title>
+    <link rel="icon" href="https://www.favicon.cc/logo3d/242527.png" type="image/png" >
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="./assets/themify-icons/themify-icons.css">
-
 </head>
 
 <body>
@@ -17,9 +17,9 @@
         <div id="header">
             <ul id="menu">
                 <li><a href="#">Home</a></li>
-                <li><a href="#">Band</a></li>
-                <li><a href="#">Tour</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#band">Band</a></li>
+                <li><a href="#tour">Tour</a></li>
+                <li><a href="#contact">Contact</a></li>
                 <li><a href="#">
                         More
                         <i class="nav-arrow-down ti-angle-down"></i>
@@ -49,7 +49,7 @@
             </div>
         </div>
         <div id="content">
-            <div class="section-about">
+            <div id="band" class="section-about">
                 <h2 class="text-heading">
                     THE BAND
                 </h2>
@@ -81,7 +81,7 @@
                     </div>
                 </div>
             </div>
-            <div class="section-tour-dates">
+            <div id="tour" class="section-tour-dates">
                 <div class="section-about">
                     <h2 class="text-heading text-white">
                         TOUR DATES
@@ -117,7 +117,7 @@
                                 <p class="content-location-tour">
                                     Praesent tincidunt sed tellus ut rutrum sed vitae justo.
                                 </p>
-                                <input type="button" value="Buy Tickets" class="buyckers" />
+                                <input type="button" value="Buy Tickets" class="btn" />
                             </div>
                         </div>
                         <div class="col col-third item-location-tour">
@@ -132,7 +132,7 @@
                                 <p class="content-location-tour">
                                     Praesent tincidunt sed tellus ut rutrum sed vitae justo.
                                 </p>
-                                <input type="button" value="Buy Tickets" class="buyckers" />
+                                <input type="button" value="Buy Tickets" class="btn" />
                             </div>
                         </div>
                         <div class="col col-third item-location-tour">
@@ -147,13 +147,13 @@
                                 <p class="content-location-tour">
                                     Praesent tincidunt sed tellus ut rutrum sed vitae justo.
                                 </p>
-                                <input type="button" value="Buy Tickets" class="buyckers" />
+                                <input type="button" value="Buy Tickets" class="btn" />
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="section-about">
+            <div id="contact"class="section-about">
                 <h2 class="text-heading">
                     CONTACT
                 </h2>
@@ -178,7 +178,7 @@
                         <div class="col-full body-form">
                             <input type="text" name="" id="" placeholder="Message" required>
                         </div>
-                        <button type="submit">Send</button>
+                        <button type="submit" class="btn">Send</button>
                     </form>
                 </div>
             </div>
