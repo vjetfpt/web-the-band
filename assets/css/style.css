@@ -22,11 +22,12 @@ html{
     scroll-behavior: smooth;
 }
 #main{
+    overflow: hidden;
 }
 /*Common*/
 .row{
     margin-left: -8px;
-    margin-right:-8px;
+    /* margin-right:-8px; */
 }
 .row::after{
     content: "";
@@ -167,10 +168,14 @@ html{
     
 }
 #content .section-about{
-    width: 784px;
+    width: 800px;
+    max-width: 100%;
     margin:64px 0;
     margin-left:auto;
     margin-right: auto;
+    padding-right: 16px;
+    padding-left: 16px;
+    
 }
 #content .text-heading{
     text-align: center;
